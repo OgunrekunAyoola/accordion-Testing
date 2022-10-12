@@ -1,0 +1,25 @@
+.accordion .item {
+  border-bottom: 1px solid #C2C2C2;
+}
+.accordion .item .accheading{
+  display: block;
+  padding: 11px 22px;
+}
+.accordion .item .accheading.active {
+  color: #FFAF19;
+}
+
+.accordion .item .acc-content {
+  margin: 0;
+  overflow: hidden;
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  /* Firefox 4 */
+  -webkit-transition: all 0.3s;
+  /* Safari and Chrome */
+  -o-transition: all 0.3s;
+  /* Opera */
+}
+.accordion .item .acc-content .inner {
+  padding: 0 22px 22px;
+}
